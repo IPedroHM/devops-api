@@ -9,3 +9,8 @@ variable "instance_type" {
 variable "project_name" {
   default = "devops-api"
 }
+
+variable "key_name" {
+  default = "devops-key"
+  description = "AWS EC2 key pair name"
+}
